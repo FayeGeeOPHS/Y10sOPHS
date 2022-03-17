@@ -1,0 +1,4 @@
+for counting in range(10):
+    print(counting)
+    
+    # this code prints out 0-9 
