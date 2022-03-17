@@ -1,0 +1,5 @@
+MyList = ["cat","dog","cow","donkey","rabbit","canary"]
+for next in MyList:
+    if next[0]=="c":
+        print(next)
+ # this code prints out every animal starting with c
