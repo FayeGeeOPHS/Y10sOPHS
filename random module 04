@@ -1,0 +1,17 @@
+import random
+num = [1,5]
+number = random.choice(num)
+guess = int(input("please guess a number between 1 and 5"))
+if guess == number:
+    print("well done")
+elif guess < number:
+    print("too low")
+    guess = int(input("please guess again"))
+elif guess > number:
+    print("too high")
+    guess = int(input("please guess again"))
+
+if guess == number:
+    print("correct")
+else:
+    print("you lose")
