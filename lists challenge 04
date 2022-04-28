@@ -1,0 +1,12 @@
+Programs = ["bad education", "the office", "friends", "heartstopper"]
+print(Programs[0])
+print(Programs[1])
+print(Programs[2])
+print(Programs[3])
+show = input("enter another program")
+position = input("what position would you like it")
+Programs.insert(2,"the good place")
+print(Programs[0])
+print(Programs[1])
+print(Programs[2])
+print(Programs[3])
