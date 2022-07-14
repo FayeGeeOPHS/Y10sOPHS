@@ -1,0 +1,16 @@
+def cod():
+    one = print("Domination")
+    two = print("Team Deathmatch")
+    three = print("Headquarters")
+cod()
+yourGamemode = int(input("Choose your gamemode>>"))
+
+if yourGamemode == 1:
+    print("Domination")
+
+if yourGamemode == 2:
+    print("Team Deathmatch")
+
+if yourGamemode == 3:
+    print("Headquarters")
+    
