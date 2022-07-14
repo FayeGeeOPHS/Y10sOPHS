@@ -1,0 +1,40 @@
+import sys
+def speroSimulator():
+    one = print("1) think big")
+    two = print("2) think bigger")
+    three = print("3) winning")
+    four = print("4) winner")
+    five = print("5) exit")
+speroSimulator()
+option = int(input("Choose your option>>"))
+
+if option == 1:
+    print("think big selected")
+
+if option == 2:
+    print("think biggger selected")
+
+if option == 3:
+    print("winning selected")
+
+if option == 4:
+    print("winner selected")
+
+if option == 5:
+    print("bye")
+    exit(sys)
+
+while option>=6:
+    print("invalid choice")
+    option = int(input("enter another option"))
+    if option == 1:
+        print("think big selected")
+    if option == 2:
+        print("think biggger selected")
+    if option == 3:
+        print("winning selected")
+    if option == 4:
+        print("winner selected")
+    if option == 5:
+        print("bye")
+        exit(sys)
