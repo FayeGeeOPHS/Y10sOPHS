@@ -1,11 +1,14 @@
 import sys
+
 def speroSimulator():
     one = print("1) think big")
     two = print("2) think bigger")
     three = print("3) winning")
     four = print("4) winner")
     five = print("5) exit")
+    
 speroSimulator()
+
 option = int(input("Choose your option>>"))
 
 if option == 1:
