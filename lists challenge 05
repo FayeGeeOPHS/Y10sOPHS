@@ -1,14 +1,16 @@
 food = []
-food1 = input("Enter a food you like>>")
-food2 = input("Enter another food you like>>")
-food3 = input("Enter another food you like>>")
-food4 = input("Enter one last food you like>>")
+food1 = input("Enter a food that you like>>")
+food2 = input("Enter another food which you like>>")
+food3 = input("Enter another food which you like>>")
+food4 = input("Enter one last food that you like>>")
+
 food.append(food1)
 food.append(food2)
 food.append(food3)
 food.append(food4)
 print(food)
-item = int(input("enter number of item to remove"))
+
+item = int(input("enter a number of item you would like to remove"))
 item = item-1
 
 del food[item]
