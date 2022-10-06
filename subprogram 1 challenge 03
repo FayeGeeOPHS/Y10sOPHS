@@ -9,7 +9,7 @@ def speroSimulator():
     
 speroSimulator()
 
-option = int(input("Choose your option>>"))
+option = int(input("Choose your option>>>"))
 
 if option == 1:
     print("think big selected")
