@@ -27,7 +27,7 @@ if option == 5:
     print("bye")
     exit(sys)
 
-while option>=6:
+while option >= 6:
     print("invalid choice")
     option = int(input("enter another option"))
     if option == 1:
